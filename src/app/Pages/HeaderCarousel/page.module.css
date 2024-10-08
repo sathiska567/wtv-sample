@@ -1,0 +1,86 @@
+.carousel_1{
+  height:50vh
+}
+
+.contentStyle {
+  height: 582px;
+  width: 100%;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity:1; /* You can remove or adjust this if needed */
+}
+
+.carousel_1{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; 
+  display: inline-block;
+}
+
+.carousel_p {
+  position: absolute;
+  top: 70%; 
+  left: 25%; 
+  transform: translate(-50%, -50%); 
+  color: #253D4E; 
+  z-index: 2;
+  font-family: Roboto;
+font-size: 40px;
+font-weight: 600;
+line-height: 46.88px;
+text-align: left;
+
+}
+
+.carousel_p2 {
+  position: absolute;
+  top:90%; 
+  margin-left:9%; 
+  color: #253D4E; 
+  z-index: 2;
+line-height: 46.88px;
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 300;
+line-height: 25px;
+text-align: left;
+}
+
+.carousel_btndiv{
+  position: absolute;
+  top:120%; 
+  margin-left:9%;
+  
+}
+
+.carousel_btn {
+  background-color: #15425D;
+  color: #fff;
+  padding: 10px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.8s ease, transform 0.8s ease; 
+}
+
+.carousel_btn:hover {
+  background-color: #0D2F43; 
+  transform: scale(1.05);
+}
+
+.carousel_btn:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); 
+}
+
+.carousel_btn:active {
+  transform: scale(0.98);
+}
+
+
+
+
+
